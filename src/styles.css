@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  background-color: #fbcfe8;
+}
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.header {
+  width: 100%;
+  margin: 1.2rem 0;
+}
+
+.generes {
+}
+.genre {
+  /* background-color: red; */
+  font-family: inherit;
+  margin: 1.2rem 0.6rem;
+  padding: 0.4rem 0.8rem;
+  outline: none;
+  border: solid 1px gray;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.foods {
+}
+.food {
+  border: solid 1px #d1d5db;
+  border-radius: 9px;
+  margin: 0.6rem auto 0 auto;
+  padding: 0.3rem 0 0.3rem 0.4rem;
+  max-width: 40vw;
+  text-align: left;
+}
